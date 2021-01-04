@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.container
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(Images/DTU1.jpg);
+  animation: animate 15s ease-in-out infinite;
+ 
+
+}
+
+@keyframes animate{
+  0%, 100%{
+    background-image: url(Images/DTU1.jpg);
+  }
+
+  50%{
+    background-image: url(Images/DTU\ 2.jpg);
+  }
+  
+  
+
+
+  
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+   background-image: url(Images/DTU\ logo.png);
+}
+
+.head1{
+  color: #108dcc;
+  text-align: center;
+  text-shadow: 2px 2px 2px #094c7d ;
+              
+  
+}
+
+.head2{
+  color: #2610cc;
+  text-align: center;
+  text-shadow: 2px 2px 2px #6666e0 ;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+.grid-container {
+  
+  position: absolute;
+
+  
+  margin-top: 90px;
+  margin-left: 450px;
+  
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #4882b1;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(190, 207, 216, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 4px 20px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
